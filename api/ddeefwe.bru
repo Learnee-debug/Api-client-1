@@ -1,0 +1,20 @@
+meta {
+  name: ddeefwe
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:5000/menu
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Cheeseburger",
+    "description": "A juicy burger with cheese, lettuce, and tomato.",
+    "price": 8.99
+  }
+  
+}
